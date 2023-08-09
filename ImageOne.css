@@ -1,0 +1,65 @@
+body {
+    font-family: roboto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.header { 
+    background-color: rgb(0, 0, 56);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.Header-Logo {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.content-wrapper h1 {
+    margin-bottom: 0px;
+  }
+  
+.content-wrapper p {
+    margin-top: 0px; 
+  }
+  
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.image-container {
+    display: flex   ;
+    background-color: grey;
+    color: white;
+    width: 500px;
+    padding: 10px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text-wrapper {
+    max-width: 430px;
+    margin-top: 50px;
+}
