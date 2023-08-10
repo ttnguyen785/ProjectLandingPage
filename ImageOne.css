@@ -7,7 +7,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
 
 ul {
@@ -17,29 +17,29 @@ ul {
 }
 
 .header { 
-    background-color: #1e2631;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    color: white;
 }
 .content-wrapper {
     background-color: #1e2631;
     display: flex;
     justify-content: center;
     gap: 280px;
-    color: white;
     flex-basis: 25%;
     margin-bottom: 20px;
 }
 .Header-Logo {
     font-weight: 900;
-    font-size: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 p {
-    font-size: 17px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .content-wrapper h1 {
@@ -48,11 +48,12 @@ p {
   
 .content-wrapper p {
     margin-top: 0px; 
-  }
+}
   
 h1 {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 .image-container {
@@ -73,8 +74,8 @@ h1 {
 }
 
 .signup {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882F6;
+    border: #3882F6;
     color: white;
     height: 40px;
     width: 130px;
@@ -87,7 +88,7 @@ h1 {
     display: flex;
     gap: 2em;
     justify-content: center;
-    font-size: 30px;
+    font-size: 36px;
     margin-top: 25px;
     margin-bottom: 40px;
     font-weight: 900;
@@ -118,7 +119,7 @@ h1 {
     position: relative;
     width: 100%;
     height: 200px;
-    background-color: lightgray;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,9 +129,10 @@ h1 {
   }
   
   .quote {
-    font-size: 30px;
+    font-size: 36px;
     font-style: italic;
     width: 900px;
+    color: #1F2937;
     font-weight: 300;
   }
   
@@ -143,7 +145,7 @@ h1 {
   }
   
   .banner {
-    background-color: #357cf0;
+    background-color: #3882F6;
     padding: 20px;
     color: white;
     display: flex;
@@ -153,6 +155,7 @@ h1 {
     width: 100%;
     margin: 100px 500px;
     border-radius: 8px;
+    height: 120px;
   }
 
   .banner header {
@@ -173,13 +176,13 @@ h1 {
     color: white;
     padding: 10px 20px;
     font-size: 16px;
-    cursor: pointer;
     border-radius: 8px;
+    width: 130px;
   }
 
   .footer {
     height: 72px;
-    background:#1e2631;
+    background:#1F2937;
     color: white;
     display: flex;
     align-items: center;
