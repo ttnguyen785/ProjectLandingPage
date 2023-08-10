@@ -17,7 +17,7 @@ ul {
 }
 
 .header { 
-    background-color: rgb(0, 0, 56);
+    background-color: #1e2631;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -25,7 +25,7 @@ ul {
     color: white;
 }
 .content-wrapper {
-    background-color: rgb(0, 0, 56);
+    background-color: #1e2631;
     display: flex;
     justify-content: center;
     gap: 280px;
@@ -175,4 +175,13 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
+  }
+
+  .footer {
+    height: 72px;
+    background:#1e2631;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
